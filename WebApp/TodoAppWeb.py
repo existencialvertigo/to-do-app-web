@@ -1,7 +1,7 @@
 import streamlit as st
 import functions
 
-todos = functions.get_todos("/WebApp/todos.txt")
+todos = functions.get_todos("todos.txt")
 
 
 def add_todo():
