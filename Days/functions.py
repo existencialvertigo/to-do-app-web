@@ -1,11 +1,11 @@
-FILEPATH = "todos.txt"  # Changed in day 15
+FILEPATH = "Days/todos.txt"  # Changed in day 15
 
 
 def get_todos(filepath=FILEPATH):
     """ Read a text file and return the list
     of to-do items."""
     with open(filepath, "r") as file_local:
-        todos_local = file_local.read().splitlines()
+        todos_local = file_local.readlines()
     return todos_local
 
 
