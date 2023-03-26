@@ -1,1 +1,3 @@
 Master python
+Clean the trash
+Run
