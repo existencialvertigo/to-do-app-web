@@ -1,4 +1,4 @@
-FILEPATH = "WebApp/todos.txt"  # Changed in day 15
+FILEPATH = "todos.txt"  # Changed in day 15
 
 
 def get_todos(filepath=FILEPATH):
